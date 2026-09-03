@@ -1,0 +1,2187 @@
+{
+  "source": "FutbolFantasy",
+  "generated_at": "2026-09-01T16:50:35.053699+00:00",
+  "teams": [
+    {
+      "name": "Alavés",
+      "slug": "alaves",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/alaves",
+      "players": [
+        {
+          "name": "Pablo Ibáñez",
+          "probability": 90
+        },
+        {
+          "name": "Nahuel Tenaglia",
+          "probability": 90
+        },
+        {
+          "name": "Lucas Boyé",
+          "probability": 90
+        },
+        {
+          "name": "Aitor Mañas",
+          "probability": 50
+        },
+        {
+          "name": "Antonio Sivera",
+          "probability": 95
+        },
+        {
+          "name": "Jonny Castro",
+          "probability": 80
+        },
+        {
+          "name": "Mikel Rodriguez",
+          "probability": 70
+        },
+        {
+          "name": "Ville Koski",
+          "probability": 80
+        },
+        {
+          "name": "Ángel Pérez",
+          "probability": 90
+        },
+        {
+          "name": "Antonio Blanco",
+          "probability": 90
+        },
+        {
+          "name": "Abde Rebbach",
+          "probability": 80
+        },
+        {
+          "name": "Mariano Díaz",
+          "probability": 50
+        },
+        {
+          "name": "Nicolás Valentini",
+          "probability": 30
+        },
+        {
+          "name": "Denis Suárez",
+          "probability": 30
+        },
+        {
+          "name": "Carles Aleñá",
+          "probability": 20
+        },
+        {
+          "name": "Youssef Enríquez",
+          "probability": 20
+        },
+        {
+          "name": "Miguel Rodríguez",
+          "probability": 10
+        },
+        {
+          "name": "Carlos Benavidez",
+          "probability": 10
+        },
+        {
+          "name": "Ander Guevara",
+          "probability": 10
+        },
+        {
+          "name": "Hugo Novoa",
+          "probability": 10
+        },
+        {
+          "name": "Adrián Rodríguez",
+          "probability": 5
+        },
+        {
+          "name": "Xanet Oláiz",
+          "probability": 0
+        },
+        {
+          "name": "Facundo Garcés",
+          "probability": 0
+        },
+        {
+          "name": "Toni Martinez",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Athletic",
+      "slug": "athletic",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/athletic",
+      "players": [
+        {
+          "name": "Iñaki Williams",
+          "probability": 70
+        },
+        {
+          "name": "Robert Navarro",
+          "probability": 70
+        },
+        {
+          "name": "Aitor Paredes",
+          "probability": 50
+        },
+        {
+          "name": "Aymeric Laporte",
+          "probability": 70
+        },
+        {
+          "name": "Unai Simón",
+          "probability": 95
+        },
+        {
+          "name": "Beñat Gerenabarrena",
+          "probability": 70
+        },
+        {
+          "name": "Oihan Sancet",
+          "probability": 70
+        },
+        {
+          "name": "Yuri Berchiche",
+          "probability": 70
+        },
+        {
+          "name": "Álex Berenguer",
+          "probability": 60
+        },
+        {
+          "name": "Íñigo Ruiz de Galarreta",
+          "probability": 70
+        },
+        {
+          "name": "Jesús Areso",
+          "probability": 70
+        },
+        {
+          "name": "Nico Williams",
+          "probability": 50
+        },
+        {
+          "name": "Gorka Guruzeta",
+          "probability": 50
+        },
+        {
+          "name": "Yeray Álvarez",
+          "probability": 50
+        },
+        {
+          "name": "Mikel Jauregizar",
+          "probability": 40
+        },
+        {
+          "name": "Hugo Rincón",
+          "probability": 30
+        },
+        {
+          "name": "Alejandro Rego",
+          "probability": 20
+        },
+        {
+          "name": "Adama Boiro",
+          "probability": 20
+        },
+        {
+          "name": "Maroan Sannadi",
+          "probability": 10
+        },
+        {
+          "name": "Álvaro Djaló",
+          "probability": 10
+        },
+        {
+          "name": "Johaneko Louis-Jean",
+          "probability": 10
+        },
+        {
+          "name": "Alex Padilla",
+          "probability": 5
+        },
+        {
+          "name": "Unai Vencedor",
+          "probability": 0
+        },
+        {
+          "name": "Beñat Prados",
+          "probability": 0
+        },
+        {
+          "name": "Nico Serrano",
+          "probability": 0
+        },
+        {
+          "name": "Andoni Gorosabel",
+          "probability": 0
+        },
+        {
+          "name": "Dani Vivian",
+          "probability": 0
+        },
+        {
+          "name": "Peio Canales",
+          "probability": 0
+        },
+        {
+          "name": "Unai Egiluz",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Atlético",
+      "slug": "atletico",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/atletico",
+      "players": [
+        {
+          "name": "David Hancko",
+          "probability": 80
+        },
+        {
+          "name": "Marc Pubill",
+          "probability": 80
+        },
+        {
+          "name": "Giuliano Simeone",
+          "probability": 80
+        },
+        {
+          "name": "Kang-In Lee",
+          "probability": 60
+        },
+        {
+          "name": "Jan Oblak",
+          "probability": 95
+        },
+        {
+          "name": "Marcos Llorente",
+          "probability": 70
+        },
+        {
+          "name": "Ademola Lookman",
+          "probability": 70
+        },
+        {
+          "name": "Pablo Barrios",
+          "probability": 80
+        },
+        {
+          "name": "Álex Baena",
+          "probability": 70
+        },
+        {
+          "name": "Álex Grimaldo",
+          "probability": 60
+        },
+        {
+          "name": "Morten Hjulmand",
+          "probability": 50
+        },
+        {
+          "name": "Koke Resurrección",
+          "probability": 50
+        },
+        {
+          "name": "Cristian Romero",
+          "probability": 50
+        },
+        {
+          "name": "Robin Le Normand",
+          "probability": 40
+        },
+        {
+          "name": "Rodrigo Mendoza",
+          "probability": 40
+        },
+        {
+          "name": "Julián Álvarez",
+          "probability": 30
+        },
+        {
+          "name": "Arnau Ortiz",
+          "probability": 30
+        },
+        {
+          "name": "Johnny Cardoso",
+          "probability": 20
+        },
+        {
+          "name": "José María Giménez",
+          "probability": 20
+        },
+        {
+          "name": "Alexander Sorloth",
+          "probability": 10
+        },
+        {
+          "name": "Carlos Martín",
+          "probability": 10
+        },
+        {
+          "name": "Juan Musso",
+          "probability": 5
+        },
+        {
+          "name": "Thomas Lemar",
+          "probability": 0
+        },
+        {
+          "name": "Obed Vargas",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/barcelona",
+      "players": [
+        {
+          "name": "Joan Garcia",
+          "probability": 95
+        },
+        {
+          "name": "Anthony Gordon",
+          "probability": 60
+        },
+        {
+          "name": "Pau Cubarsí",
+          "probability": 80
+        },
+        {
+          "name": "Marc Bernal",
+          "probability": 60
+        },
+        {
+          "name": "Lamine Yamal",
+          "probability": 90
+        },
+        {
+          "name": "Xavi Espart",
+          "probability": 60
+        },
+        {
+          "name": "Raphinha",
+          "probability": 90
+        },
+        {
+          "name": "Pedri González",
+          "probability": 80
+        },
+        {
+          "name": "Eric Garcia",
+          "probability": 70
+        },
+        {
+          "name": "Gerard Martín",
+          "probability": 70
+        },
+        {
+          "name": "Fermín López",
+          "probability": 50
+        },
+        {
+          "name": "Dani Olmo",
+          "probability": 50
+        },
+        {
+          "name": "Rodri Hernández",
+          "probability": 50
+        },
+        {
+          "name": "Joao Cancelo",
+          "probability": 40
+        },
+        {
+          "name": "Karim Adeyemi",
+          "probability": 40
+        },
+        {
+          "name": "Jules Koundé",
+          "probability": 30
+        },
+        {
+          "name": "Pablo Gavi",
+          "probability": 30
+        },
+        {
+          "name": "Andreas Christensen",
+          "probability": 30
+        },
+        {
+          "name": "Gabriel Jesus",
+          "probability": 10
+        },
+        {
+          "name": "Alejandro Balde",
+          "probability": 10
+        },
+        {
+          "name": "Hamza Abdelkarim",
+          "probability": 10
+        },
+        {
+          "name": "Dominik Livakovic",
+          "probability": 5
+        },
+        {
+          "name": "Marc Casadó",
+          "probability": 0
+        },
+        {
+          "name": "Wojciech Szczesny",
+          "probability": 0
+        },
+        {
+          "name": "Frenkie de Jong",
+          "probability": 0
+        },
+        {
+          "name": "Roony Bardghji",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Celta",
+      "slug": "celta",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/celta",
+      "players": [
+        {
+          "name": "Carl Starfelt",
+          "probability": 50
+        },
+        {
+          "name": "Iago Aspas",
+          "probability": 70
+        },
+        {
+          "name": "Pablo Durán",
+          "probability": 50
+        },
+        {
+          "name": "Hugo Álvarez",
+          "probability": 70
+        },
+        {
+          "name": "Miguel Román",
+          "probability": 80
+        },
+        {
+          "name": "Javi Rueda",
+          "probability": 70
+        },
+        {
+          "name": "Javi Galán",
+          "probability": 70
+        },
+        {
+          "name": "Ionut Radu",
+          "probability": 90
+        },
+        {
+          "name": "Yoel Lago",
+          "probability": 70
+        },
+        {
+          "name": "Marcos Alonso",
+          "probability": 90
+        },
+        {
+          "name": "Aleix Febas",
+          "probability": 60
+        },
+        {
+          "name": "Javi Rodríguez",
+          "probability": 50
+        },
+        {
+          "name": "Ferran Jutglà",
+          "probability": 50
+        },
+        {
+          "name": "Ilaix Moriba",
+          "probability": 40
+        },
+        {
+          "name": "Jones El-Abdellaoui",
+          "probability": 30
+        },
+        {
+          "name": "Williot Swedberg",
+          "probability": 30
+        },
+        {
+          "name": "Sergio Carreira",
+          "probability": 30
+        },
+        {
+          "name": "Álvaro Núñez",
+          "probability": 30
+        },
+        {
+          "name": "Andrés Antañón",
+          "probability": 30
+        },
+        {
+          "name": "Hugo González",
+          "probability": 20
+        },
+        {
+          "name": "Altay Bayindir",
+          "probability": 10
+        },
+        {
+          "name": "Abdoulaye Faye",
+          "probability": 10
+        },
+        {
+          "name": "Carles Pérez",
+          "probability": 0
+        },
+        {
+          "name": "Borja Iglesias",
+          "probability": 0
+        },
+        {
+          "name": "Iván Villar",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Deportivo",
+      "slug": "deportivo",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/deportivo",
+      "players": [
+        {
+          "name": "Bright Ede",
+          "probability": 50
+        },
+        {
+          "name": "Bil Nsongo",
+          "probability": 50
+        },
+        {
+          "name": "Luismi Cruz",
+          "probability": 70
+        },
+        {
+          "name": "Ximo Navarro",
+          "probability": 80
+        },
+        {
+          "name": "Mario Soriano",
+          "probability": 80
+        },
+        {
+          "name": "Riki Rodríguez",
+          "probability": 50
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "probability": 90
+        },
+        {
+          "name": "Lorenzo Amatucci",
+          "probability": 90
+        },
+        {
+          "name": "Leo Román",
+          "probability": 90
+        },
+        {
+          "name": "Lucas Noubi",
+          "probability": 80
+        },
+        {
+          "name": "Giacomo Quagliata",
+          "probability": 70
+        },
+        {
+          "name": "Jonathan Asp Jensen",
+          "probability": 50
+        },
+        {
+          "name": "Miguel Loureiro",
+          "probability": 50
+        },
+        {
+          "name": "Yeremay Hernández",
+          "probability": 40
+        },
+        {
+          "name": "David Mella",
+          "probability": 30
+        },
+        {
+          "name": "Diego Villares",
+          "probability": 30
+        },
+        {
+          "name": "Angeliño",
+          "probability": 30
+        },
+        {
+          "name": "Zakaria Eddahchouri",
+          "probability": 20
+        },
+        {
+          "name": "Teun Gijselhart",
+          "probability": 10
+        },
+        {
+          "name": "Adama Traoré",
+          "probability": 10
+        },
+        {
+          "name": "Arnau Comas",
+          "probability": 10
+        },
+        {
+          "name": "Kevin Sánchez",
+          "probability": 10
+        },
+        {
+          "name": "Álvaro Fernández",
+          "probability": 10
+        },
+        {
+          "name": "José Ángel Jurado",
+          "probability": 0
+        },
+        {
+          "name": "Dani Barcia",
+          "probability": 0
+        },
+        {
+          "name": "Eric Puerto",
+          "probability": 0
+        },
+        {
+          "name": "Germán Parreño",
+          "probability": 0
+        },
+        {
+          "name": "Adrià Altimira",
+          "probability": 0
+        },
+        {
+          "name": "Noé Carrillo",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Elche",
+      "slug": "elche",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/elche",
+      "players": [
+        {
+          "name": "Marc Aguado",
+          "probability": 50
+        },
+        {
+          "name": "Facundo Buonanotte",
+          "probability": 70
+        },
+        {
+          "name": "Germán Valera",
+          "probability": 90
+        },
+        {
+          "name": "Víctor Chust",
+          "probability": 70
+        },
+        {
+          "name": "Buba Sangaré",
+          "probability": 80
+        },
+        {
+          "name": "Tete Morente",
+          "probability": 70
+        },
+        {
+          "name": "Matías Dituro",
+          "probability": 80
+        },
+        {
+          "name": "Pedro Bigas",
+          "probability": 50
+        },
+        {
+          "name": "Ezequiel Ponce",
+          "probability": 50
+        },
+        {
+          "name": "Gonzalo Villar",
+          "probability": 90
+        },
+        {
+          "name": "Javi Morcillo",
+          "probability": 50
+        },
+        {
+          "name": "Fernando Niño",
+          "probability": 50
+        },
+        {
+          "name": "Lucas Cepeda",
+          "probability": 40
+        },
+        {
+          "name": "Ali Houary",
+          "probability": 40
+        },
+        {
+          "name": "Grady Diangana",
+          "probability": 30
+        },
+        {
+          "name": "Federico Redondo",
+          "probability": 30
+        },
+        {
+          "name": "Martim Neto",
+          "probability": 30
+        },
+        {
+          "name": "Alejandro Iturbe",
+          "probability": 20
+        },
+        {
+          "name": "Josan Ferrández",
+          "probability": 10
+        },
+        {
+          "name": "Umaru Konaré",
+          "probability": 10
+        },
+        {
+          "name": "Adam Boayar",
+          "probability": 0
+        },
+        {
+          "name": "Abiel Osorio",
+          "probability": 0
+        },
+        {
+          "name": "Yago Santiago",
+          "probability": 0
+        },
+        {
+          "name": "David Affengruber",
+          "probability": 0
+        },
+        {
+          "name": "Bambo Diaby",
+          "probability": 0
+        },
+        {
+          "name": "Matia Barzic",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Espanyol",
+      "slug": "espanyol",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/espanyol",
+      "players": [
+        {
+          "name": "Roberto Fernández",
+          "probability": 90
+        },
+        {
+          "name": "Javier Hernández",
+          "probability": 70
+        },
+        {
+          "name": "Marko Dmitrovic",
+          "probability": 95
+        },
+        {
+          "name": "Tyrhys Dolan",
+          "probability": 80
+        },
+        {
+          "name": "Edu Expósito",
+          "probability": 90
+        },
+        {
+          "name": "Urko González de Zarate",
+          "probability": 60
+        },
+        {
+          "name": "Unai Núñez",
+          "probability": 90
+        },
+        {
+          "name": "Leandro Cabrera",
+          "probability": 50
+        },
+        {
+          "name": "Roger Hinojo",
+          "probability": 70
+        },
+        {
+          "name": "Omar El Hilali",
+          "probability": 80
+        },
+        {
+          "name": "Álex Calatrava",
+          "probability": 70
+        },
+        {
+          "name": "Gabriel Moscardo",
+          "probability": 40
+        },
+        {
+          "name": "Vanja Drkusic",
+          "probability": 40
+        },
+        {
+          "name": "Jofre Carreras",
+          "probability": 30
+        },
+        {
+          "name": "Pol Lozano",
+          "probability": 30
+        },
+        {
+          "name": "Pere Milla",
+          "probability": 30
+        },
+        {
+          "name": "Quilindschy Hartman",
+          "probability": 30
+        },
+        {
+          "name": "Clemens Riedel",
+          "probability": 20
+        },
+        {
+          "name": "Rafel Bauzà",
+          "probability": 10
+        },
+        {
+          "name": "Bryan Zaragoza",
+          "probability": 10
+        },
+        {
+          "name": "Marcos Fernández",
+          "probability": 10
+        },
+        {
+          "name": "Ángel Fortuño",
+          "probability": 5
+        },
+        {
+          "name": "Rubén Sánchez",
+          "probability": 0
+        },
+        {
+          "name": "Javi Puado",
+          "probability": 0
+        },
+        {
+          "name": "Kike García",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Getafe",
+      "slug": "getafe",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/getafe",
+      "players": [
+        {
+          "name": "Johan Mojica",
+          "probability": 70
+        },
+        {
+          "name": "Kiko Femenia",
+          "probability": 70
+        },
+        {
+          "name": "Dakonam Djené",
+          "probability": 90
+        },
+        {
+          "name": "Enes Ünal",
+          "probability": 80
+        },
+        {
+          "name": "Zaid Romero",
+          "probability": 90
+        },
+        {
+          "name": "Orel Mangala",
+          "probability": 90
+        },
+        {
+          "name": "Ramón Terrats",
+          "probability": 80
+        },
+        {
+          "name": "David Soria",
+          "probability": 95
+        },
+        {
+          "name": "Francho Serrano",
+          "probability": 50
+        },
+        {
+          "name": "Martín Satriano",
+          "probability": 70
+        },
+        {
+          "name": "Nemanja Gudelj",
+          "probability": 50
+        },
+        {
+          "name": "Andrés García",
+          "probability": 50
+        },
+        {
+          "name": "Mario Martín",
+          "probability": 50
+        },
+        {
+          "name": "Davinchi",
+          "probability": 30
+        },
+        {
+          "name": "Saba Sazonov",
+          "probability": 30
+        },
+        {
+          "name": "Abdel Abqar",
+          "probability": 30
+        },
+        {
+          "name": "Borja Mayoral",
+          "probability": 30
+        },
+        {
+          "name": "Sebastián Boselli",
+          "probability": 20
+        },
+        {
+          "name": "Jean Ives Valou",
+          "probability": 10
+        },
+        {
+          "name": "Jiri Letácek",
+          "probability": 5
+        },
+        {
+          "name": "Yvan Neyou",
+          "probability": 0
+        },
+        {
+          "name": "Juan Berrocal",
+          "probability": 0
+        },
+        {
+          "name": "Christantus Uche",
+          "probability": 0
+        },
+        {
+          "name": "Juanmi Jiménez",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Levante",
+      "slug": "levante",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/levante",
+      "players": [
+        {
+          "name": "Aissa Mandi",
+          "probability": 90
+        },
+        {
+          "name": "Manu Sánchez",
+          "probability": 80
+        },
+        {
+          "name": "Enzo Bardelli",
+          "probability": 80
+        },
+        {
+          "name": "Nacho Pérez",
+          "probability": 70
+        },
+        {
+          "name": "Jon Ander Olasagasti",
+          "probability": 90
+        },
+        {
+          "name": "Adrián de la Fuente",
+          "probability": 80
+        },
+        {
+          "name": "Thiago Fernández",
+          "probability": 70
+        },
+        {
+          "name": "Oriol Rey",
+          "probability": 70
+        },
+        {
+          "name": "Mathew Ryan",
+          "probability": 95
+        },
+        {
+          "name": "Roger Brugué",
+          "probability": 90
+        },
+        {
+          "name": "Iván Romero",
+          "probability": 70
+        },
+        {
+          "name": "Hugo Sotelo",
+          "probability": 30
+        },
+        {
+          "name": "Paco Cortés",
+          "probability": 30
+        },
+        {
+          "name": "Jeremy Toljan",
+          "probability": 30
+        },
+        {
+          "name": "Marc Santos",
+          "probability": 20
+        },
+        {
+          "name": "Carlos Álvarez",
+          "probability": 20
+        },
+        {
+          "name": "Víctor García",
+          "probability": 20
+        },
+        {
+          "name": "Karl Etta Eyong",
+          "probability": 20
+        },
+        {
+          "name": "Axel Tape",
+          "probability": 15
+        },
+        {
+          "name": "Yanis Musuayi",
+          "probability": 10
+        },
+        {
+          "name": "Dani Requena",
+          "probability": 10
+        },
+        {
+          "name": "Pablo Campos",
+          "probability": 5
+        },
+        {
+          "name": "Ifeanyi Ndukwe",
+          "probability": 5
+        },
+        {
+          "name": "Tai Abed",
+          "probability": 0
+        },
+        {
+          "name": "Jorge Cabello",
+          "probability": 0
+        },
+        {
+          "name": "Alejandro Primo",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Málaga",
+      "slug": "malaga",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/malaga",
+      "players": [
+        {
+          "name": "Rafa Garrido",
+          "probability": 70
+        },
+        {
+          "name": "Carlos Dotor",
+          "probability": 80
+        },
+        {
+          "name": "Einar Galilea",
+          "probability": 80
+        },
+        {
+          "name": "Carlos Puga",
+          "probability": 70
+        },
+        {
+          "name": "Izan Merino",
+          "probability": 80
+        },
+        {
+          "name": "Dani Lorenzo",
+          "probability": 80
+        },
+        {
+          "name": "Angel Recio",
+          "probability": 60
+        },
+        {
+          "name": "David Larrubia",
+          "probability": 80
+        },
+        {
+          "name": "Joaquín Muñoz",
+          "probability": 60
+        },
+        {
+          "name": "Chupete",
+          "probability": 80
+        },
+        {
+          "name": "Alfonso Herrero",
+          "probability": 90
+        },
+        {
+          "name": "Juan Cruz",
+          "probability": 50
+        },
+        {
+          "name": "Pablo Martínez",
+          "probability": 30
+        },
+        {
+          "name": "Ramón Enríquez",
+          "probability": 30
+        },
+        {
+          "name": "Juan Berrocal",
+          "probability": 30
+        },
+        {
+          "name": "José Salinas",
+          "probability": 30
+        },
+        {
+          "name": "Rafa Rodríguez",
+          "probability": 30
+        },
+        {
+          "name": "Haitam Abaida",
+          "probability": 20
+        },
+        {
+          "name": "Álex Pastor",
+          "probability": 20
+        },
+        {
+          "name": "Julen Lobete",
+          "probability": 10
+        },
+        {
+          "name": "Eneko Jauregi",
+          "probability": 10
+        },
+        {
+          "name": "Adam Aznou",
+          "probability": 10
+        },
+        {
+          "name": "Fernando Calero",
+          "probability": 10
+        },
+        {
+          "name": "Carlos López",
+          "probability": 10
+        },
+        {
+          "name": "Adrián Niño",
+          "probability": 0
+        },
+        {
+          "name": "Pablo Arriaza",
+          "probability": 0
+        },
+        {
+          "name": "Aarón Ochoa",
+          "probability": 0
+        },
+        {
+          "name": "Diego Murillo",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Osasuna",
+      "slug": "osasuna",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/osasuna",
+      "players": [
+        {
+          "name": "Sergio Herrera",
+          "probability": 90
+        },
+        {
+          "name": "Abel Bretones",
+          "probability": 70
+        },
+        {
+          "name": "Boyomo",
+          "probability": 80
+        },
+        {
+          "name": "Jonathan Dubasin",
+          "probability": 50
+        },
+        {
+          "name": "Jon Moncayola",
+          "probability": 90
+        },
+        {
+          "name": "Ante Budimir",
+          "probability": 90
+        },
+        {
+          "name": "Rubén García",
+          "probability": 70
+        },
+        {
+          "name": "Alejandro Catena",
+          "probability": 90
+        },
+        {
+          "name": "Iker Muñoz",
+          "probability": 70
+        },
+        {
+          "name": "Iñigo Arguibide",
+          "probability": 70
+        },
+        {
+          "name": "Moi Gómez",
+          "probability": 70
+        },
+        {
+          "name": "Aimar Oroz",
+          "probability": 40
+        },
+        {
+          "name": "Diego Rico",
+          "probability": 30
+        },
+        {
+          "name": "Lucas Torró",
+          "probability": 30
+        },
+        {
+          "name": "Raul Moro",
+          "probability": 30
+        },
+        {
+          "name": "Valentin Rosier",
+          "probability": 30
+        },
+        {
+          "name": "Rockson Yeboah",
+          "probability": 20
+        },
+        {
+          "name": "Asier Osambela",
+          "probability": 20
+        },
+        {
+          "name": "Kike Barja",
+          "probability": 20
+        },
+        {
+          "name": "Raúl García",
+          "probability": 20
+        },
+        {
+          "name": "Romain Del Castillo",
+          "probability": 10
+        },
+        {
+          "name": "Jorge Herrando",
+          "probability": 10
+        },
+        {
+          "name": "Aitor Fernández",
+          "probability": 10
+        }
+      ]
+    },
+    {
+      "name": "Racing",
+      "slug": "racing",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/racing",
+      "players": [
+        {
+          "name": "Julen Agirrezabala",
+          "probability": 90
+        },
+        {
+          "name": "Iñigo Vicente",
+          "probability": 90
+        },
+        {
+          "name": "Sergio Canales",
+          "probability": 80
+        },
+        {
+          "name": "Álvaro Mantilla",
+          "probability": 90
+        },
+        {
+          "name": "Pablo Ramón",
+          "probability": 50
+        },
+        {
+          "name": "Manu Hernando",
+          "probability": 60
+        },
+        {
+          "name": "Jorge Salinas",
+          "probability": 90
+        },
+        {
+          "name": "Matteo Prati",
+          "probability": 50
+        },
+        {
+          "name": "Yassir Zabiri",
+          "probability": 80
+        },
+        {
+          "name": "Iván Martín",
+          "probability": 80
+        },
+        {
+          "name": "Facundo González",
+          "probability": 50
+        },
+        {
+          "name": "Giorgi Guliashvili",
+          "probability": 50
+        },
+        {
+          "name": "Pedro Felipe",
+          "probability": 40
+        },
+        {
+          "name": "Jeanuël Belocian",
+          "probability": 30
+        },
+        {
+          "name": "Asier Villalibre",
+          "probability": 20
+        },
+        {
+          "name": "Íñigo Sainz-Maza",
+          "probability": 20
+        },
+        {
+          "name": "Aarón Martín",
+          "probability": 10
+        },
+        {
+          "name": "Simon Eriksson",
+          "probability": 10
+        },
+        {
+          "name": "Juan Carlos Arana",
+          "probability": 10
+        },
+        {
+          "name": "Laro Gómez",
+          "probability": 0
+        },
+        {
+          "name": "Gustavo Puerta",
+          "probability": 0
+        },
+        {
+          "name": "Andrés Martín",
+          "probability": 0
+        },
+        {
+          "name": "Iker Luque",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Rayo",
+      "slug": "rayo-vallecano",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/rayo-vallecano",
+      "players": [
+        {
+          "name": "Pathé Ciss",
+          "probability": 70
+        },
+        {
+          "name": "Álvaro García",
+          "probability": 70
+        },
+        {
+          "name": "Iván Balliu",
+          "probability": 50
+        },
+        {
+          "name": "Adrià Pedrosa",
+          "probability": 70
+        },
+        {
+          "name": "Florian Lejeune",
+          "probability": 95
+        },
+        {
+          "name": "Gnangoro Bouare",
+          "probability": 60
+        },
+        {
+          "name": "Jorge de Frutos",
+          "probability": 90
+        },
+        {
+          "name": "Óscar Valentín",
+          "probability": 70
+        },
+        {
+          "name": "Dani Cárdenas",
+          "probability": 95
+        },
+        {
+          "name": "Sergio Camello",
+          "probability": 80
+        },
+        {
+          "name": "Unai López",
+          "probability": 80
+        },
+        {
+          "name": "Andrei Ratiu",
+          "probability": 50
+        },
+        {
+          "name": "Pedro Díaz",
+          "probability": 40
+        },
+        {
+          "name": "Jozhua Vertrouwd",
+          "probability": 30
+        },
+        {
+          "name": "Pelayo Fernández",
+          "probability": 30
+        },
+        {
+          "name": "Randy Nteka",
+          "probability": 30
+        },
+        {
+          "name": "Georgiy Tsitaishvili",
+          "probability": 30
+        },
+        {
+          "name": "Fran Pérez",
+          "probability": 30
+        },
+        {
+          "name": "Alemão",
+          "probability": 20
+        },
+        {
+          "name": "Marash Kumbulla",
+          "probability": 5
+        },
+        {
+          "name": "Raúl De Tomás",
+          "probability": 0
+        },
+        {
+          "name": "Isi Palazón",
+          "probability": 0
+        },
+        {
+          "name": "Luiz Felipe",
+          "probability": 0
+        },
+        {
+          "name": "Augusto Batalla",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Betis",
+      "slug": "betis",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/betis",
+      "players": [
+        {
+          "name": "Cucho Hernández",
+          "probability": 70
+        },
+        {
+          "name": "Pablo Fornals",
+          "probability": 80
+        },
+        {
+          "name": "Héctor Bellerín",
+          "probability": 50
+        },
+        {
+          "name": "Rodrigo Riquelme",
+          "probability": 60
+        },
+        {
+          "name": "Diego Javier Llorente",
+          "probability": 50
+        },
+        {
+          "name": "Marc Roca",
+          "probability": 80
+        },
+        {
+          "name": "Isco Alarcón",
+          "probability": 50
+        },
+        {
+          "name": "Antony",
+          "probability": 80
+        },
+        {
+          "name": "Fran García",
+          "probability": 80
+        },
+        {
+          "name": "Álvaro Valles",
+          "probability": 95
+        },
+        {
+          "name": "Natan",
+          "probability": 80
+        },
+        {
+          "name": "Facundo Bernal",
+          "probability": 50
+        },
+        {
+          "name": "Ángel Ortiz",
+          "probability": 50
+        },
+        {
+          "name": "Marc Bartra",
+          "probability": 50
+        },
+        {
+          "name": "Abde Ezzalzouli",
+          "probability": 40
+        },
+        {
+          "name": "Troy Parrott",
+          "probability": 30
+        },
+        {
+          "name": "Álvaro Fidalgo",
+          "probability": 20
+        },
+        {
+          "name": "Nelson Deossa",
+          "probability": 20
+        },
+        {
+          "name": "Pablo García",
+          "probability": 20
+        },
+        {
+          "name": "Junior Firpo",
+          "probability": 20
+        },
+        {
+          "name": "Valentín Gómez",
+          "probability": 20
+        },
+        {
+          "name": "Manu González",
+          "probability": 5
+        },
+        {
+          "name": "Iker Losada",
+          "probability": 0
+        },
+        {
+          "name": "José Antonio Morante",
+          "probability": 0
+        },
+        {
+          "name": "Aitor Ruibal",
+          "probability": 0
+        },
+        {
+          "name": "Giovani Lo Celso",
+          "probability": 0
+        },
+        {
+          "name": "Diego Conde",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/real-madrid",
+      "players": [
+        {
+          "name": "Arda Güler",
+          "probability": 70
+        },
+        {
+          "name": "Thibaut Courtois",
+          "probability": 95
+        },
+        {
+          "name": "Ibrahima Konaté",
+          "probability": 50
+        },
+        {
+          "name": "Dean Huijsen",
+          "probability": 80
+        },
+        {
+          "name": "Jude Bellingham",
+          "probability": 80
+        },
+        {
+          "name": "Denzel Dumfries",
+          "probability": 60
+        },
+        {
+          "name": "Kylian Mbappé",
+          "probability": 90
+        },
+        {
+          "name": "Marc Cucurella",
+          "probability": 70
+        },
+        {
+          "name": "Vinicius Junior",
+          "probability": 90
+        },
+        {
+          "name": "Federico Valverde",
+          "probability": 60
+        },
+        {
+          "name": "Bernardo Silva",
+          "probability": 80
+        },
+        {
+          "name": "Eduardo Camavinga",
+          "probability": 50
+        },
+        {
+          "name": "Antonio Rüdiger",
+          "probability": 50
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "probability": 40
+        },
+        {
+          "name": "Brahim Díaz",
+          "probability": 30
+        },
+        {
+          "name": "Álvaro F. Carreras",
+          "probability": 30
+        },
+        {
+          "name": "Yan Diomande",
+          "probability": 30
+        },
+        {
+          "name": "Carlos Espí",
+          "probability": 10
+        },
+        {
+          "name": "Aurélien Tchouaméni",
+          "probability": 10
+        },
+        {
+          "name": "Andriy Lunin",
+          "probability": 5
+        },
+        {
+          "name": "Endrick",
+          "probability": 0
+        },
+        {
+          "name": "Ferland Mendy",
+          "probability": 0
+        },
+        {
+          "name": "Raúl Asencio",
+          "probability": 0
+        },
+        {
+          "name": "Éder Militão",
+          "probability": 0
+        },
+        {
+          "name": "Thiago Pitarch",
+          "probability": 0
+        },
+        {
+          "name": "Rodrygo Goes",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Real Sociedad",
+      "slug": "real-sociedad",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/real-sociedad",
+      "players": [
+        {
+          "name": "Jon Aramburu",
+          "probability": 60
+        },
+        {
+          "name": "Sergio Gómez",
+          "probability": 60
+        },
+        {
+          "name": "Igor Zubeldia",
+          "probability": 70
+        },
+        {
+          "name": "Yangel Herrera",
+          "probability": 70
+        },
+        {
+          "name": "Beñat Turrientes",
+          "probability": 50
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "probability": 50
+        },
+        {
+          "name": "Takefusa Kubo",
+          "probability": 70
+        },
+        {
+          "name": "Orri Steinn Óskarsson",
+          "probability": 70
+        },
+        {
+          "name": "Carlos Soler",
+          "probability": 90
+        },
+        {
+          "name": "Álex Remiro",
+          "probability": 70
+        },
+        {
+          "name": "Jon Martín",
+          "probability": 90
+        },
+        {
+          "name": "Luka Sucic",
+          "probability": 50
+        },
+        {
+          "name": "Ander Barrenetxea",
+          "probability": 50
+        },
+        {
+          "name": "Aihen Muñoz",
+          "probability": 40
+        },
+        {
+          "name": "Héctor Fort",
+          "probability": 40
+        },
+        {
+          "name": "Gonçalo Guedes",
+          "probability": 30
+        },
+        {
+          "name": "Jon Gorrotxategi",
+          "probability": 30
+        },
+        {
+          "name": "Mamadou Sarr",
+          "probability": 30
+        },
+        {
+          "name": "Unai Marrero",
+          "probability": 30
+        },
+        {
+          "name": "Job Ochieng",
+          "probability": 20
+        },
+        {
+          "name": "Arsen Zakharyan",
+          "probability": 20
+        },
+        {
+          "name": "Luken Beitia",
+          "probability": 10
+        },
+        {
+          "name": "Pablo Marín",
+          "probability": 0
+        },
+        {
+          "name": "Jon Pacheco",
+          "probability": 0
+        },
+        {
+          "name": "Alex Marchal",
+          "probability": 0
+        },
+        {
+          "name": "Álvaro Odriozola",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Sevilla",
+      "slug": "sevilla",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/sevilla",
+      "players": [
+        {
+          "name": "Kike Salas",
+          "probability": 90
+        },
+        {
+          "name": "Andrés Castrín",
+          "probability": 60
+        },
+        {
+          "name": "Lucien Agoume",
+          "probability": 90
+        },
+        {
+          "name": "Peque",
+          "probability": 50
+        },
+        {
+          "name": "Odysseas Vlachodimos",
+          "probability": 95
+        },
+        {
+          "name": "Giorgi Kochorashvili",
+          "probability": 60
+        },
+        {
+          "name": "Juan Iglesias",
+          "probability": 80
+        },
+        {
+          "name": "Jon Guridi",
+          "probability": 80
+        },
+        {
+          "name": "Robbie Ure",
+          "probability": 70
+        },
+        {
+          "name": "Miguel Sierra",
+          "probability": 80
+        },
+        {
+          "name": "Gabriel Suazo",
+          "probability": 80
+        },
+        {
+          "name": "Arouna Sangante",
+          "probability": 50
+        },
+        {
+          "name": "Julio Díaz",
+          "probability": 50
+        },
+        {
+          "name": "Chidera Ejuke",
+          "probability": 40
+        },
+        {
+          "name": "Nico Guillén",
+          "probability": 30
+        },
+        {
+          "name": "Alfonso González",
+          "probability": 30
+        },
+        {
+          "name": "Isaac Romero",
+          "probability": 30
+        },
+        {
+          "name": "José Ángel Carmona",
+          "probability": 20
+        },
+        {
+          "name": "Manu Bueno",
+          "probability": 10
+        },
+        {
+          "name": "Fran González",
+          "probability": 5
+        },
+        {
+          "name": "Rubén Vargas",
+          "probability": 0
+        },
+        {
+          "name": "Marcão",
+          "probability": 0
+        },
+        {
+          "name": "Fábio Cardoso",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Valencia",
+      "slug": "valencia",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/valencia",
+      "players": [
+        {
+          "name": "César Tárrega",
+          "probability": 70
+        },
+        {
+          "name": "Arnau Martínez",
+          "probability": 70
+        },
+        {
+          "name": "Stole Dimitrievski",
+          "probability": 95
+        },
+        {
+          "name": "Arnaut Danjuma",
+          "probability": 50
+        },
+        {
+          "name": "Pepelu",
+          "probability": 80
+        },
+        {
+          "name": "José Gayà",
+          "probability": 50
+        },
+        {
+          "name": "Javi Guerra",
+          "probability": 90
+        },
+        {
+          "name": "Ryunosuke Sato",
+          "probability": 70
+        },
+        {
+          "name": "Filip Ugrinic",
+          "probability": 70
+        },
+        {
+          "name": "Mouctar Diakhaby",
+          "probability": 70
+        },
+        {
+          "name": "Pablo Maffeo",
+          "probability": 50
+        },
+        {
+          "name": "Hugo Duro",
+          "probability": 50
+        },
+        {
+          "name": "Luis Rioja",
+          "probability": 50
+        },
+        {
+          "name": "Jesús Vázquez",
+          "probability": 50
+        },
+        {
+          "name": "Aliou Dieng",
+          "probability": 40
+        },
+        {
+          "name": "David Otorbi",
+          "probability": 30
+        },
+        {
+          "name": "Daniel Raba",
+          "probability": 30
+        },
+        {
+          "name": "Harvey Elliott",
+          "probability": 30
+        },
+        {
+          "name": "André Almeida",
+          "probability": 10
+        },
+        {
+          "name": "Dimitri Foulquier",
+          "probability": 10
+        },
+        {
+          "name": "Kayne van Oevelen",
+          "probability": 5
+        },
+        {
+          "name": "Iker Córdoba",
+          "probability": 0
+        },
+        {
+          "name": "Cristian Rivero",
+          "probability": 0
+        },
+        {
+          "name": "Sergi Canós",
+          "probability": 0
+        },
+        {
+          "name": "Guido Rodríguez",
+          "probability": 0
+        },
+        {
+          "name": "Justin de Haas",
+          "probability": 0
+        },
+        {
+          "name": "José Manuel Copete",
+          "probability": 0
+        },
+        {
+          "name": "Umar Sadiq",
+          "probability": 0
+        },
+        {
+          "name": "Diego López",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "name": "Villarreal",
+      "slug": "villarreal",
+      "url": "https://www.futbolfantasy.com/laliga/equipos/villarreal",
+      "players": [
+        {
+          "name": "Santi Comesaña",
+          "probability": 60
+        },
+        {
+          "name": "Carlos Romero",
+          "probability": 70
+        },
+        {
+          "name": "Juan Foyth",
+          "probability": 50
+        },
+        {
+          "name": "Renato Veiga",
+          "probability": 80
+        },
+        {
+          "name": "Gerard Moreno",
+          "probability": 50
+        },
+        {
+          "name": "Nicolas Pépé",
+          "probability": 80
+        },
+        {
+          "name": "Alberto Moleiro",
+          "probability": 60
+        },
+        {
+          "name": "Luiz Junior",
+          "probability": 70
+        },
+        {
+          "name": "Alex Freeman",
+          "probability": 50
+        },
+        {
+          "name": "Georges Mikautadze",
+          "probability": 90
+        },
+        {
+          "name": "Pape Gueye",
+          "probability": 80
+        },
+        {
+          "name": "Pau Navarro",
+          "probability": 50
+        },
+        {
+          "name": "Santiago Mouriño",
+          "probability": 50
+        },
+        {
+          "name": "Ayoze Pérez",
+          "probability": 50
+        },
+        {
+          "name": "Tajon Buchanan",
+          "probability": 40
+        },
+        {
+          "name": "Nathan-Dylan Saliba",
+          "probability": 40
+        },
+        {
+          "name": "Sergi Cardona",
+          "probability": 30
+        },
+        {
+          "name": "Péter Gulácsi",
+          "probability": 30
+        },
+        {
+          "name": "Ilias Akhomach",
+          "probability": 20
+        },
+        {
+          "name": "Carlos Macià",
+          "probability": 20
+        },
+        {
+          "name": "Alassane Diatta",
+          "probability": 10
+        },
+        {
+          "name": "Logan Costa",
+          "probability": 10
+        },
+        {
+          "name": "Tani Oluwaseyi",
+          "probability": 10
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

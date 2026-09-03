@@ -1,0 +1,23 @@
+{
+  "fantasy_generated_at": "2026-09-01T16:50:35.053699+00:00",
+  "players": [
+    {
+      "name": "Mikel Rodriguez",
+      "found": true,
+      "team": "Alavés",
+      "probability": 70
+    },
+    {
+      "name": "Wojciech Szczesny",
+      "found": true,
+      "team": "Barcelona",
+      "probability": 0
+    },
+    {
+      "name": "Buba Sangaré",
+      "found": true,
+      "team": "Elche",
+      "probability": 80
+    }
+  ]
+}

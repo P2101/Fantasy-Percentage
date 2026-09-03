@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mis jugadores · Fantasy</title>
+  <style>
+    :root { color-scheme: dark; font-family: Inter, system-ui, sans-serif; background: #111827; color: #f8fafc; }
+    body { margin: 0; padding: 32px 16px; }
+    main { max-width: 760px; margin: auto; }
+    h1 { margin: 0; font-size: clamp(1.7rem, 5vw, 2.4rem); }
+    .subtitle { color: #94a3b8; margin: 8px 0 28px; }
+    form, .player { display: grid; align-items: center; gap: 12px; }
+    form { grid-template-columns: 1fr auto; margin-bottom: 22px; }
+    input, button { font: inherit; border-radius: 10px; padding: 12px 14px; }
+    input { color: inherit; background: #1e293b; border: 1px solid #475569; min-width: 0; }
+    button { cursor: pointer; border: 0; font-weight: 700; }
+    form button { color: #042f2e; background: #5eead4; }
+    #message { min-height: 24px; margin: -12px 0 14px; color: #fda4af; }
+    .list { display: grid; gap: 10px; }
+    .player { grid-template-columns: minmax(0, 1fr) 130px 52px; background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 14px; }
+    .name { font-weight: 700; } .team { color: #94a3b8; font-size: .9rem; margin-top: 3px; }
+    .probability { text-align: right; font-weight: 800; font-size: 1.1rem; }
+    .bar { height: 7px; background: #334155; border-radius: 99px; overflow: hidden; margin-top: 6px; }
+    .bar > span { display: block; height: 100%; background: #5eead4; border-radius: inherit; }
+    .delete { width: 38px; height: 38px; padding: 0; color: #fecdd3; background: #4c1d2a; font-size: 1.4rem; line-height: 1; }
+    .empty { color: #94a3b8; text-align: center; padding: 36px; border: 1px dashed #475569; border-radius: 12px; }
+    @media (max-width: 480px) { .player { grid-template-columns: minmax(0, 1fr) 42px; } .percentage-area { grid-column: 1 / -1; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Mis jugadores</h1>
+    <p class="subtitle">Gestiona tu plantilla y consulta la probabilidad de titularidad.</p>
+    <form id="add-form">
+      <input id="player-name" list="catalog" placeholder="Busca un jugador…" autocomplete="off" required>
+      <datalist id="catalog"></datalist>
+      <button>Añadir</button>
+    </form>
+    <div id="message" role="status"></div>
+    <section id="list" class="list" aria-live="polite"></section>
+  </main>
+  <script>
+    const list = document.querySelector('#list');
+    const message = document.querySelector('#message');
+    const input = document.querySelector('#player-name');
+    const escapeHtml = value => String(value).replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
+    async function request(url, options) {
+      const response = await fetch(url, options);
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || 'Ha ocurrido un error.');
+      return data;
+    }
+    function render(players) {
+      if (!players.length) { list.innerHTML = '<div class="empty">Aún no tienes jugadores. Añade uno con el buscador.</div>'; return; }
+      list.innerHTML = players.map(player => {
+        const probability = player.probability ?? 0;
+        const label = player.found ? `${probability}%` : 'No encontrado';
+        return `<article class="player"><div><div class="name">${escapeHtml(player.name)}</div><div class="team">${escapeHtml(player.team)}</div></div><div class="percentage-area"><div class="probability">${label}</div><div class="bar"><span style="width:${probability}%"></span></div></div><button class="delete" aria-label="Eliminar a ${escapeHtml(player.name)}" data-name="${escapeHtml(player.name)}">×</button></article>`;
+      }).join('');
+    }
+    async function load() { render((await request('/api/players')).players); }
+    document.querySelector('#add-form').addEventListener('submit', async event => {
+      event.preventDefault(); message.textContent = '';
+      try { render((await request('/api/players', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({name: input.value})})).players); input.value = ''; }
+      catch (error) { message.textContent = error.message; }
+    });
+    list.addEventListener('click', async event => {
+      const button = event.target.closest('.delete'); if (!button) return;
+      try { render((await request('/api/players', {method:'DELETE', headers:{'Content-Type':'application/json'}, body:JSON.stringify({name:button.dataset.name})})).players); }
+      catch (error) { message.textContent = error.message; }
+    });
+    Promise.all([load(), request('/api/catalog')]).then(([, data]) => { document.querySelector('#catalog').innerHTML = data.players.map(player => `<option value="${escapeHtml(player.name)}">${escapeHtml(player.team)} · ${player.probability}%</option>`).join(''); }).catch(error => message.textContent = error.message);
+  </script>
+</body>
+</html>
