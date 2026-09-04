@@ -7,6 +7,9 @@ Después abre: http://127.0.0.1:8000
 from __future__ import annotations
 
 import json
+import subprocess
+import sys
+import threading
 import unicodedata
 from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -17,6 +20,8 @@ from urllib.parse import urlparse
 BASE_DIR = Path(__file__).parent
 FANTASY_FILE = BASE_DIR / "fantasy.json"
 MY_PLAYERS_FILE = BASE_DIR / "mis_jugadores.json"
+UPDATER_SCRIPT = BASE_DIR / "fantasy-mcp.py"
+UPDATE_LOCK = threading.Lock()
 
 
 def normalized_name(name: str) -> str:
@@ -102,7 +107,35 @@ class Handler(BaseHTTPRequestHandler):
             self.send_error(HTTPStatus.NOT_FOUND)
 
     def do_POST(self) -> None:  # noqa: N802
-        if urlparse(self.path).path != "/api/players":
+        route = urlparse(self.path).path
+        if route == "/api/refresh":
+            if not UPDATE_LOCK.acquire(blocking=False):
+                self.send_json({"error": "Ya hay una actualización en curso."}, HTTPStatus.CONFLICT)
+                return
+            try:
+                result = subprocess.run(
+                    [sys.executable, str(UPDATER_SCRIPT)],
+                    cwd=BASE_DIR,
+                    capture_output=True,
+                    text=True,
+                    encoding="utf-8",
+                    timeout=180,
+                )
+            except subprocess.TimeoutExpired:
+                self.send_json({"error": "La actualización ha tardado demasiado tiempo."}, HTTPStatus.GATEWAY_TIMEOUT)
+            except OSError as error:
+                self.send_json({"error": f"No se pudo iniciar la actualización: {error}"}, HTTPStatus.INTERNAL_SERVER_ERROR)
+            else:
+                if result.returncode != 0:
+                    detail = result.stderr.strip() or result.stdout.strip()
+                    self.send_json({"error": f"La actualización falló. {detail}".strip()}, HTTPStatus.INTERNAL_SERVER_ERROR)
+                else:
+                    self.send_json({"message": "Probabilidades actualizadas."})
+            finally:
+                UPDATE_LOCK.release()
+            return
+
+        if route != "/api/players":
             self.send_error(HTTPStatus.NOT_FOUND)
             return
         try:

@@ -11,11 +11,14 @@
     h1 { margin: 0; font-size: clamp(1.7rem, 5vw, 2.4rem); }
     .subtitle { color: #94a3b8; margin: 8px 0 28px; }
     form, .player { display: grid; align-items: center; gap: 12px; }
-    form { grid-template-columns: 1fr auto; margin-bottom: 22px; }
+    form { grid-template-columns: 1fr auto; margin-bottom: 14px; }
+    .actions { display: flex; gap: 10px; margin: 0 0 22px; }
     input, button { font: inherit; border-radius: 10px; padding: 12px 14px; }
     input { color: inherit; background: #1e293b; border: 1px solid #475569; min-width: 0; }
     button { cursor: pointer; border: 0; font-weight: 700; }
     form button { color: #042f2e; background: #5eead4; }
+    #refresh { color: #dbeafe; background: #1d4ed8; }
+    #refresh:disabled { cursor: wait; opacity: .65; }
     #message { min-height: 24px; margin: -12px 0 14px; color: #fda4af; }
     .list { display: grid; gap: 10px; }
     .player { grid-template-columns: minmax(0, 1fr) 130px 52px; background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 14px; }
@@ -37,6 +40,9 @@
       <datalist id="catalog"></datalist>
       <button>Añadir</button>
     </form>
+    <div class="actions">
+      <button id="refresh" type="button">Actualizar probabilidades</button>
+    </div>
     <div id="message" role="status"></div>
     <section id="list" class="list" aria-live="polite"></section>
   </main>
@@ -44,6 +50,7 @@
     const list = document.querySelector('#list');
     const message = document.querySelector('#message');
     const input = document.querySelector('#player-name');
+    const refreshButton = document.querySelector('#refresh');
     const escapeHtml = value => String(value).replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
     async function request(url, options) {
       const response = await fetch(url, options);
@@ -60,6 +67,10 @@
       }).join('');
     }
     async function load() { render((await request('/api/players')).players); }
+    async function loadCatalog() {
+      const data = await request('/api/catalog');
+      document.querySelector('#catalog').innerHTML = data.players.map(player => `<option value="${escapeHtml(player.name)}">${escapeHtml(player.team)} · ${player.probability}%</option>`).join('');
+    }
     document.querySelector('#add-form').addEventListener('submit', async event => {
       event.preventDefault(); message.textContent = '';
       try { render((await request('/api/players', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({name: input.value})})).players); input.value = ''; }
@@ -70,7 +81,20 @@
       try { render((await request('/api/players', {method:'DELETE', headers:{'Content-Type':'application/json'}, body:JSON.stringify({name:button.dataset.name})})).players); }
       catch (error) { message.textContent = error.message; }
     });
-    Promise.all([load(), request('/api/catalog')]).then(([, data]) => { document.querySelector('#catalog').innerHTML = data.players.map(player => `<option value="${escapeHtml(player.name)}">${escapeHtml(player.team)} · ${player.probability}%</option>`).join(''); }).catch(error => message.textContent = error.message);
+    refreshButton.addEventListener('click', async () => {
+      message.textContent = 'Actualizando probabilidades…';
+      refreshButton.disabled = true;
+      try {
+        const data = await request('/api/refresh', {method:'POST'});
+        await Promise.all([load(), loadCatalog()]);
+        message.textContent = data.message;
+      } catch (error) {
+        message.textContent = error.message;
+      } finally {
+        refreshButton.disabled = false;
+      }
+    });
+    Promise.all([load(), loadCatalog()]).catch(error => message.textContent = error.message);
   </script>
 </body>
 </html>
