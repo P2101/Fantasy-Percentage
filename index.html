@@ -54,7 +54,15 @@
     const escapeHtml = value => String(value).replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
     async function request(url, options) {
       const response = await fetch(url, options);
-      const data = await response.json();
+      const contentType = response.headers.get('content-type') || '';
+      const body = await response.text();
+      let data;
+      try {
+        data = JSON.parse(body);
+      } catch {
+        const received = contentType.includes('text/html') ? 'HTML' : (contentType || 'un contenido no JSON');
+        throw new Error(`La API ${url} devolvio ${received} (HTTP ${response.status}). Revisa que /api este dirigido a la aplicacion Python en produccion.`);
+      }
       if (!response.ok) throw new Error(data.error || 'Ha ocurrido un error.');
       return data;
     }

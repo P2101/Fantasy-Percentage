@@ -7,6 +7,7 @@ Después abre: http://127.0.0.1:8000
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 import sys
 import threading
@@ -178,6 +179,8 @@ class Handler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    server = ThreadingHTTPServer(("127.0.0.1", 8000), Handler)
-    print("Vista disponible en http://127.0.0.1:8000")
+    host = os.environ.get("HOST", "0.0.0.0")
+    port = int(os.environ.get("PORT", "8000"))
+    server = ThreadingHTTPServer((host, port), Handler)
+    print(f"Vista disponible en http://{host}:{port}")
     server.serve_forever()
